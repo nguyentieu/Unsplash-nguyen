@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B730DB38C4B7335FCB409DFD /* Pods_unsplat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9C4A149636D29CF2E6579C /* Pods_unsplat.framework */; };
+		D845FEE71FD067DF007792A8 /* PhotoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D845FEE51FD067DF007792A8 /* PhotoTableViewCell.swift */; };
+		D845FEE81FD067DF007792A8 /* PhotoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D845FEE61FD067DF007792A8 /* PhotoTableViewCell.xib */; };
 		D859FC821FD02D000012045C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859FC811FD02D000012045C /* AppDelegate.swift */; };
 		D859FC841FD02D000012045C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D859FC831FD02D000012045C /* ViewController.swift */; };
 		D859FC871FD02D000012045C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D859FC851FD02D000012045C /* Main.storyboard */; };
 		D859FC891FD02D000012045C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D859FC881FD02D000012045C /* Assets.xcassets */; };
 		D859FC8C1FD02D000012045C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D859FC8A1FD02D000012045C /* LaunchScreen.storyboard */; };
+		D8B177261FD0351800CCF96C /* Photos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B177251FD0351800CCF96C /* Photos.swift */; };
+		D8FBFADF1FD2675D00F19BC4 /* DetailPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FBFADE1FD2675D00F19BC4 /* DetailPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		242BD18449ED289305E25146 /* Pods-unsplat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unsplat/Pods-unsplat.debug.xcconfig"; sourceTree = "<group>"; };
+		7135B9A7BB119D892C893F5A /* Pods-unsplat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unsplat.release.xcconfig"; path = "Pods/Target Support Files/Pods-unsplat/Pods-unsplat.release.xcconfig"; sourceTree = "<group>"; };
+		D845FEE51FD067DF007792A8 /* PhotoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoTableViewCell.swift; sourceTree = "<group>"; };
+		D845FEE61FD067DF007792A8 /* PhotoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoTableViewCell.xib; sourceTree = "<group>"; };
 		D859FC7E1FD02D000012045C /* unsplat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unsplat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D859FC811FD02D000012045C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D859FC831FD02D000012045C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		D859FC881FD02D000012045C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D859FC8B1FD02D000012045C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D859FC8D1FD02D000012045C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B177251FD0351800CCF96C /* Photos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photos.swift; sourceTree = "<group>"; };
+		D8FBFADE1FD2675D00F19BC4 /* DetailPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailPhotoViewController.swift; sourceTree = "<group>"; };
+		EE9C4A149636D29CF2E6579C /* Pods_unsplat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unsplat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B730DB38C4B7335FCB409DFD /* Pods_unsplat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		97748DE1DA0A55CF8C99CEB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9C4A149636D29CF2E6579C /* Pods_unsplat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B2D0CDCFF82D1DD72830E3B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				242BD18449ED289305E25146 /* Pods-unsplat.debug.xcconfig */,
+				7135B9A7BB119D892C893F5A /* Pods-unsplat.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		D859FC751FD02D000012045C = {
 			isa = PBXGroup;
 			children = (
 				D859FC801FD02D000012045C /* unsplat */,
 				D859FC7F1FD02D000012045C /* Products */,
+				B2D0CDCFF82D1DD72830E3B0 /* Pods */,
+				97748DE1DA0A55CF8C99CEB7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +88,11 @@
 			children = (
 				D859FC811FD02D000012045C /* AppDelegate.swift */,
 				D859FC831FD02D000012045C /* ViewController.swift */,
+				D845FEE51FD067DF007792A8 /* PhotoTableViewCell.swift */,
+				D845FEE61FD067DF007792A8 /* PhotoTableViewCell.xib */,
+				D8B177251FD0351800CCF96C /* Photos.swift */,
 				D859FC851FD02D000012045C /* Main.storyboard */,
+				D8FBFADE1FD2675D00F19BC4 /* DetailPhotoViewController.swift */,
 				D859FC881FD02D000012045C /* Assets.xcassets */,
 				D859FC8A1FD02D000012045C /* LaunchScreen.storyboard */,
 				D859FC8D1FD02D000012045C /* Info.plist */,
@@ -71,9 +107,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D859FC901FD02D000012045C /* Build configuration list for PBXNativeTarget "unsplat" */;
 			buildPhases = (
+				8DC4674D23ABB95358CE79EA /* [CP] Check Pods Manifest.lock */,
 				D859FC7A1FD02D000012045C /* Sources */,
 				D859FC7B1FD02D000012045C /* Frameworks */,
 				D859FC7C1FD02D000012045C /* Resources */,
+				C86C6DFDE8A704AB7588DA99 /* [CP] Embed Pods Frameworks */,
+				B82BA76E8C0F0FFD3FD0D37D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D845FEE81FD067DF007792A8 /* PhotoTableViewCell.xib in Resources */,
 				D859FC8C1FD02D000012045C /* LaunchScreen.storyboard in Resources */,
 				D859FC891FD02D000012045C /* Assets.xcassets in Resources */,
 				D859FC871FD02D000012045C /* Main.storyboard in Resources */,
@@ -131,11 +171,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8DC4674D23ABB95358CE79EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unsplat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B82BA76E8C0F0FFD3FD0D37D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unsplat/Pods-unsplat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C86C6DFDE8A704AB7588DA99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-unsplat/Pods-unsplat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unsplat/Pods-unsplat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D859FC7A1FD02D000012045C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D845FEE71FD067DF007792A8 /* PhotoTableViewCell.swift in Sources */,
+				D8B177261FD0351800CCF96C /* Photos.swift in Sources */,
+				D8FBFADF1FD2675D00F19BC4 /* DetailPhotoViewController.swift in Sources */,
 				D859FC841FD02D000012045C /* ViewController.swift in Sources */,
 				D859FC821FD02D000012045C /* AppDelegate.swift in Sources */,
 			);
@@ -272,6 +373,7 @@
 		};
 		D859FC911FD02D000012045C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BD18449ED289305E25146 /* Pods-unsplat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +388,7 @@
 		};
 		D859FC921FD02D000012045C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7135B9A7BB119D892C893F5A /* Pods-unsplat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
